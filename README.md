@@ -209,11 +209,12 @@ rosdep install --from-paths ./src --ignore-packages-from-source --rosdistro noet
 
 #### 5.1 Fixing rosconsole error
 1. vscode를 열어 noetic_ws 폴더 열기
-2. **src/rosconsole/src/rosconsole/impl/rosconsole_log4cxx.cpp** 파일 열고 내용 수정
-3. **src/rosconsole/test/thread_test.cpp** 파일 열고 내용 수정
-4. **src/rosconsole/test/utest.cpp** 파일 열고 내용 수정
-5. noetic_ws에 **change_cpp.py** 파일 생성 및 내용 복붙
+2. **src/rosconsole/src/rosconsole/impl/rosconsole_log4cxx.cpp** 파일 열고 [https://raw.githubusercontent.com/mvng6/Noetic-Humble-bridge-setting/main/rosconsole_log4cxx.cpp](https://raw.githubusercontent.com/mvng6/Noetic-Humble-bridge-setting/main/rosconsole_log4cxx.cpp) 코드 내용을 전체 복사 붙여넣기하여 수정
+3. **src/rosconsole/test/thread_test.cpp** 파일 열고 [https://raw.githubusercontent.com/mvng6/Noetic-Humble-bridge-setting/main/thread_test.cpp](https://raw.githubusercontent.com/mvng6/Noetic-Humble-bridge-setting/main/thread_test.cpp) 코드 내용을 전체 복사 붙여넣기하여 수정
+4. **src/rosconsole/test/utest.cpp** 파일 열고 [https://raw.githubusercontent.com/mvng6/Noetic-Humble-bridge-setting/main/utest.cpp](https://raw.githubusercontent.com/mvng6/Noetic-Humble-bridge-setting/main/utest.cpp) 코드 내용을 전체 복사 붙여넣기하여 수정
+5. noetic_ws에 **change_cpp.py** 파일 생성 및 [https://raw.githubusercontent.com/mvng6/Noetic-Humble-bridge-setting/main/change_cpp.py](https://raw.githubusercontent.com/mvng6/Noetic-Humble-bridge-setting/main/change_cpp.py) 코드 내용을 전체 복사 붙여넣기하여 수정
 6. ```python3 change_cpp.py``` 실행
+
 
 ### 6. Installing noetic
 ```bash
