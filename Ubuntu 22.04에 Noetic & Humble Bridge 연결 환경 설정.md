@@ -155,7 +155,7 @@ sudo gedit /etc/ros/rosdep/sources.list.d/20-default.list
 yaml <enter base.yaml address>
 
 # 수정할 명령어
-yaml https://gist.githubusercontent.com/Meltwin/0317ae7481c94da7fd66c3eea8d40740/raw/04f6404249b0430523671410891815e63eadb2fe/base.yaml
+yaml https://raw.githubusercontent.com/mvng6/Noetic-Humble-bridge-setting/main/base.yaml
 ```
 
 4. 
