@@ -1,6 +1,6 @@
 ## 1. ROS Humble 설치 (Source)
-### ROS Humble 설치 링크
-	https://docs.ros.org/en/humble/Installation/Alternatives/Ubuntu-Development-Setup.html
+### ROS Humble 설치 가이드 링크
+[https://docs.ros.org/en/humble/Installation/Alternatives/Ubuntu-Development-Setup.html](https://docs.ros.org/en/humble/Installation/Alternatives/Ubuntu-Development-Setup.html)
 
 ### 1.  Set locale
 ```bash
@@ -128,8 +128,8 @@ ros2 run demo_nodes_py listener
 ---
 
 ## 2. ROS Noetic 설치 (Source)
-### ROS Noetic 설치 링크
-	https://gist.github.com/Meltwin/fe2c15a5d7e6a8795911907f627255e0
+### ROS Noetic 설치 가이드 원본 링크
+[https://gist.github.com/Meltwin/fe2c15a5d7e6a8795911907f627255e0](https://gist.github.com/Meltwin/fe2c15a5d7e6a8795911907f627255e0)
 
 ### 1. Installing bootstrap dependencies
 ```bash
@@ -150,16 +150,13 @@ sudo gedit /etc/ros/rosdep/sources.list.d/20-default.list
 ```
 
 3. 마지막이 base.ymal로 끝나는줄을 아래의 내용으로 수정
-# base.ymal 파일로 연결하는 하이퍼링크 설정해줘
-
 **base.yaml 파일 Raw 링크:** [https://raw.githubusercontent.com/mvng6/Noetic-Humble-bridge-setting/main/base.yaml](https://raw.githubusercontent.com/mvng6/Noetic-Humble-bridge-setting/main/base.yaml)
-
 ```bash
 # 수정할 부분
 yaml <enter base.yaml address>
 
-# 수정할 명령어 (base.yaml 파일의 Raw 링크 사용)
-yaml https://raw.githubusercontent.com/mvng6/Noetic-Humble-bridge-setting/main/base.yaml
+# 수정할 명령어
+yaml https://gist.githubusercontent.com/Meltwin/0317ae7481c94da7fd66c3eea8d40740/raw/04f6404249b0430523671410891815e63eadb2fe/base.yaml
 ```
 
 4. 
@@ -207,6 +204,7 @@ rosdep install --from-paths ./src --ignore-packages-from-source --rosdistro noet
 
 # 위 명령어 시 에러가 발생할 가능성 높음
 # 만약 에러 발생 시 아래의 rosconsonle error 해결 단계를 진행
+# base.ymal 파일로 연결하는 하이퍼링크 설정해줘
 ```
 
 #### 5.1 Fixing rosconsole error
