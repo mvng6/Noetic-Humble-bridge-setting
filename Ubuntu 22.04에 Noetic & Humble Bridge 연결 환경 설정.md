@@ -150,11 +150,15 @@ sudo gedit /etc/ros/rosdep/sources.list.d/20-default.list
 ```
 
 3. 마지막이 base.ymal로 끝나는줄을 아래의 내용으로 수정
+# base.ymal 파일로 연결하는 하이퍼링크 설정해줘
+
+**base.yaml 파일 Raw 링크:** [https://raw.githubusercontent.com/mvng6/Noetic-Humble-bridge-setting/main/base.yaml](https://raw.githubusercontent.com/mvng6/Noetic-Humble-bridge-setting/main/base.yaml)
+
 ```bash
 # 수정할 부분
 yaml <enter base.yaml address>
 
-# 수정할 명령어
+# 수정할 명령어 (base.yaml 파일의 Raw 링크 사용)
 yaml https://raw.githubusercontent.com/mvng6/Noetic-Humble-bridge-setting/main/base.yaml
 ```
 
