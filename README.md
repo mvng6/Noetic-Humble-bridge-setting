@@ -81,7 +81,6 @@ rosdep install --from-paths src --ignore-src -y --skip-keys "fastcdr rti-connext
 
 - 에러 해결 방법  
 	- 출력창에 나온 경로를 복붙하여 실행 후 ```sudo rosdep init``` 명령어 재실행
-	  ```
 ```bash
 # 입력 예시
 sudo rm -rf /etc/ros.rosdep/sources.list.d/20-default.list
